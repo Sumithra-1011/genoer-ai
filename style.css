@@ -1,0 +1,167 @@
+ :root{
+    --blue:#5337FF;
+    --darkpink:#D326AB;
+    --pink:#D350FF;
+    --red:#E9479C;
+    --orange:#FEC68B;
+   /* font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+
+  font-family: "Koh Santepheap", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  font-family: "Kadwa", serif;
+  font-weight: 400;
+  font-style: normal; */
+
+
+ }
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#100425 !important;
+}
+/* Navbar start */
+/* .navbar{
+    background: rgb(83,55,255);
+    background: linear-gradient(60deg, rgba(83,55,255,1) 0%, rgba(211,80,255,1) 66%);
+} */
+.navbar .navbar-brand{
+    background: rgb(83,55,255);
+    background: linear-gradient(60deg, rgba(83,55,255,1) 0%, rgba(211,80,255,1) 66%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    font-family: "Kadwa", serif;
+    font-weight: 400;
+    font-size:2rem;
+}
+.navbar .nav-item .nav-link{
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 10px;
+}
+.navbar-nav-btn .nav-item .nav-link{
+    width:157px; 
+    height:43px;
+    text-align: center;
+}
+/* btn one */
+.navbar-nav-btn .nav-item .btn-one{
+    border-radius:5px;
+    background: rgb(83,55,255);
+    background: linear-gradient(212deg, rgba(83,55,255,1) 18%, rgba(220,41,172,1) 81%); 
+    /*border: 1px solid white;
+    background: rgb(83,55,255);
+    background: linear-gradient(60deg, rgba(83,55,255,1) 0%, rgba(211,80,255,1) 66%); */
+    position: relative;
+
+}
+.btn-one:hover{
+    background:#100425!important;
+}
+.btn-one:hover::before{
+    content: '';
+    background: linear-gradient(212deg, rgba(83,55,255,1) 18%, rgba(220,41,172,1) 81%);
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:-1;
+    margin:-1px;
+    border-radius:5px;
+}
+/* btn one end */
+/* btn two start */
+.navbar-nav-btn .nav-item .btn-two{
+    position: relative;
+    background-color:#100425;
+    border-radius:10px;
+}
+.btn-two::before{
+    content: '';
+    background: linear-gradient(212deg, rgba(83,55,255,1) 18%, rgba(220,41,172,1) 81%);
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:-1;
+    margin:-1px;
+    border-radius:10px;
+}
+.btn-two:hover{
+    background: linear-gradient(212deg, rgba(83,55,255,1) 18%, rgba(220,41,172,1) 81%);
+}
+/* btn tow end */
+.navbar-toggler {
+    background: linear-gradient(212deg, rgba(83,55,255,1) 18%, rgba(220,41,172,1) 81%);
+    font-size:15px;
+}
+/* Navbar end */
+/* Head of the section start */
+.sub-title{
+    font-size: 24px;
+    font-family: "Kadwa", serif;
+    font-weight: 400;
+    background: rgb(83,55,255);
+    background: linear-gradient(66deg, rgba(83,55,255,1) 0%, rgba(211,38,171,1) 81%);
+     -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.title{
+   font-size:3rem; 
+  font-family: "Koh Santepheap", serif;
+  font-weight:700;
+  font-style: normal;
+
+}
+.title span{
+    background: rgb(83,55,255);
+    background: linear-gradient(66deg, rgba(83,55,255,1) 0%, rgba(211,38,171,1) 81%);
+     -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.head-subline{
+    font-family: "Poppins", sans-serif;
+    font-size:16px ;
+    opacity:0.9;
+}
+@media(min-width:1024px) {
+    /* body {
+      background-color: lightblue !important;
+    } */
+    .carousel{
+        margin-top:80px !important;
+    }
+}
+
+.boxone{
+    width: 160px;
+    height:180px;
+    background-color:#19171c !important;
+    position: relative;
+    border-radius:10px;
+    /* border: 1px solid; */
+}
+.boxone::before{
+    content: '';
+    background: linear-gradient(212deg, rgba(83,55,255,1) 18%, rgba(220,41,172,1) 81%);
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:-1;
+    margin:-1px;
+    border-radius:10px;
+}
+/* Head of the section start */
