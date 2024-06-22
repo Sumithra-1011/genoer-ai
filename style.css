@@ -124,6 +124,12 @@ body{
      -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
 }
+@media only screen and (max-width:360px){
+    .title{
+     font-size:2.5rem ;
+      
+    }
+}
 .btn-two{
     width:190px; 
     height:55px;
@@ -164,10 +170,11 @@ body{
         margin-top:0px !important;
     }
 }
-.about-us h1{
+.main-title{
     font-family: "Koh Santepheap", serif;
+    color: white;
 }
-.about-us h1 span{
+.main-title span{
     background: rgb(83,55,255);
    background: linear-gradient(90deg, rgba(83,55,255,1) 16%, rgba(211,80,255,1) 67%, rgba(233,71,156,1) 80%, rgba(254,198,139,1) 100%);
    -webkit-background-clip:text;
@@ -185,19 +192,26 @@ body{
     border-radius: 10px;
     padding: 10px;
     border: 1px solid #3c3c3c;
-    
+}
+/* End about-us */
+/* Start future section  */
+.line{
+    width:99%;
+    height:99%;
+    clip-path: polygon(64.7% 0%, 98.9% 32.3%, 100% 99.6%, 0% 99.1%, 0.7% 1%);
+    background-color:#19171c;
+    border-radius: 10px;
+}
+/*  End future section*/
+.future-border{
+    width:21%;
+    height:210px;
+    clip-path: polygon(64.7% 0%, 98.9% 32.3%, 100% 99.6%, 0% 99.1%, 0.7% 1%);
+    background: linear-gradient(90deg, rgba(83,55,255,1) 16%, rgba(211,80,255,1) 67%, rgba(233,71,156,1) 80%, rgba(254,198,139,1) 100%);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
-/* .vision-1::before{
-    content: '';
-    position: absolute;
-    width:100.50%;
-    height:102%;
-    background: rgb(83,55,255);
-    background: linear-gradient(90deg, rgba(83,55,255,1) 16%, rgba(211,80,255,1) 67%, rgba(233,71,156,1) 80%, rgba(254,198,139,1) 100%);
-    padding: 5px;
-    z-index: -1;
-    border-radius: 10px;
-    /* color: #f0f0f0; */
-} */
-/* End about-us */
