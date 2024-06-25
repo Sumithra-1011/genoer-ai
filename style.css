@@ -244,3 +244,31 @@ body{
     }
 }
 /*  End future section*/
+
+.slider{
+    display: flex;
+    position: relative;
+    /* width: 700px; */
+    overflow: hidden;
+    background-color: #5337FF;
+    -webkit-mask-image: linear-gradient(90deg, transparent,#fff 20% ,#fff 80%, transparent);
+}
+.slide-track{
+    white-space:nowrap;
+    animation: animate var(--t) linear infinite;
+}
+@keyframes animate{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.slide{
+    display: inline-flex;
+    margin: 0 10px;
+}
+.slide:hover{
+    transform: scale(1.1);
+}
