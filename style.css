@@ -249,9 +249,12 @@ body{
 .slide{
     width:270px;
     height: 270px;
-    background-color: #19191a;
-    border: 1px solid #3c3c3c;
+    background-color:rgba(86, 86, 86, 0.141);
+    border: 1px solid #6e6e6e;
     border-radius: 10px;
+    display: inline-flex;
+    margin: 0 10px;
+    /* backdrop-filter:blur(20px); */
 }
 .slide h5{
     font-family: "Koh Santepheap", serif;
@@ -260,16 +263,20 @@ body{
 }
 /* End Toolkit */
 
-/* .slider{
+.slider{
     display: flex;
     position: relative;
     overflow: hidden;
-    -webkit-mask-image: linear-gradient(90deg, transparent,#fff 20% ,#fff 80%, transparent);
-} */
-/* .slide-track{
+    /* -webkit-mask-image: linear-gradient(90deg, white,#432eb7 20% ,#d71010 80%, transparent); */
+}
+.slide-track{
     white-space:nowrap;
     animation: animate var(--t) linear infinite;
     animation-delay: calc(var(--t)*-1);
+}
+.slide-track p{
+    white-space:wrap;
+    
 }
 @keyframes animate{
     0%{
@@ -286,15 +293,9 @@ body{
     100%{
         transform: translateX(-200%);
     }
-}
+} 
 .slide-track:nth-child(2){
     animation: animate2 var(--t) linear infinite;
     animation-delay: calc(var(--t)/-2);
 }
-.slide{
-    display: inline-flex;
-    margin: 0 10px;
-}
-.slide:hover{
-    transform: scale(1.1);
-} */
+
