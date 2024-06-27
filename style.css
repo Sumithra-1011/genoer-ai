@@ -254,15 +254,12 @@ body{
     border-radius: 10px;
     display: inline-flex;
     margin: 0 10px;
-    /* backdrop-filter:blur(20px); */
 }
 .slide h5{
     font-family: "Koh Santepheap", serif;
     font-weight: 400;
     font-size: 20px;
 }
-/* End Toolkit */
-
 .slider{
     display: flex;
     position: relative;
@@ -298,4 +295,46 @@ body{
     animation: animate2 var(--t) linear infinite;
     animation-delay: calc(var(--t)/-2);
 }
+/* End Toolkit */
+/* start image generator  */
+.imgage-background-liner{
+    margin-top:200px;
+    width:300px;
+    height:300px;
+    /* border: 2px solid white; */
+ background: rgb(233,71,156);
+ background: linear-gradient(117deg, rgba(233,71,156,1) 40%, rgba(43,203,186,1) 100%);
+ filter: blur(80px);
+}
 
+.image-generator img{
+    width:800px; 
+    height:500px ; 
+    object-fit:contain;
+}
+.image-generator-image{
+    top:50px;
+}
+@media only screen and (max-width:768px){
+    .image-generator img{
+        width:500px; 
+        height:500px ; 
+        object-fit:contain;
+        /* border: 2px solid white; */
+    }
+}
+@media only screen and (max-width:425px){
+    .imgage-background-liner{
+        margin-top:100px ;
+    }
+    .image-generator-image{
+        top:0px !important;
+        /* border: 2px solid white; */
+    }
+    .image-generator img{
+        width:800px; 
+        height:400px ; 
+        object-fit:contain;
+        /* border: 2px solid white; */
+    }
+}
