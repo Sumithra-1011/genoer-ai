@@ -307,16 +307,19 @@ body{
  filter: blur(80px);
 }
 
-.image-generator img{
+.image-generator-image{
     width:800px; 
     height:500px ; 
     object-fit:contain;
 }
-.image-generator-image{
+.image-generator-image-div{
     top:50px;
 }
+.image-generator-para-div{
+    margin-top: 100px;
+}
 @media only screen and (max-width:768px){
-    .image-generator img{
+    .image-generator-image{
         width:500px; 
         height:500px ; 
         object-fit:contain;
@@ -327,14 +330,60 @@ body{
     .imgage-background-liner{
         margin-top:100px ;
     }
-    .image-generator-image{
+    .image-generator-image-div{
         top:0px !important;
         /* border: 2px solid white; */
     }
-    .image-generator img{
+    .image-generator-image{
         width:800px; 
         height:400px ; 
         object-fit:contain;
         /* border: 2px solid white; */
     }
+    .image-generator-para-div{
+        margin-top:0px;
+    }
 }
+@media only screen and (max-width:320px){
+    .imgage-background-liner{
+        margin-top:50px ;
+        width:200px;
+        height:200px;
+        filter: blur(50px);
+        border: 2px solid salmon ;
+    }
+    .image-generator-image-div{
+        top:0px !important;
+        /* border: 2px solid white; */
+    }
+    .image-generator-image{
+        width:900px; 
+        height:300px ; 
+        object-fit:contain;
+        /* border: 2px solid white; */
+    }
+    .image-generator-para-div{
+        margin-top:30px;
+    }
+}
+.image-background-gradient{
+    /* top:330px; */
+    right:-200px;
+    width:600px ;
+    height:800px;
+    background: rgb(83,55,255);
+    background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
+    filter:blur(190px);
+    overflow-x:hidden;
+    /* overflow-y: hidden; */
+}
+/* .image-inner-gradient{
+    width:600px ;
+    height:800px;
+    background: rgb(83,55,255);
+    background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
+    filter:blur(190px);
+} */
+/* End image generator */
+/* start video generator */
+/* End video generator */
