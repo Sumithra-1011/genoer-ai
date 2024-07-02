@@ -30,6 +30,7 @@
 body{
     /* background-color:lightblue!important; */
     background-color: #19171c;
+    overflow-x: hidden;
 }
 /* Navbar start */
 .navbar{
@@ -155,6 +156,7 @@ body{
 .background-gradient{
     top:330px;
     right:-200px;
+    /* border: 2px solid white; */
 }
 .inner-gradient{
     width:600px ;
@@ -367,23 +369,18 @@ body{
     }
 }
 .image-background-gradient{
-    /* top:330px; */
-    right:-200px;
-    width:600px ;
-    height:800px;
-    background: rgb(83,55,255);
-    background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
-    filter:blur(190px);
-    overflow-x:hidden;
-    /* overflow-y: hidden; */
+    top:1000px;
+    right:-250px;
+    /* border: 2px solid white; */
+    
 }
-/* .image-inner-gradient{
+.image-inner-gradient{
     width:600px ;
     height:800px;
     background: rgb(83,55,255);
     background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
     filter:blur(190px);
-} */
+}
 /* End image generator */
 /* start video generator */
 /* End video generator */
