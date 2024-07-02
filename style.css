@@ -382,5 +382,38 @@ body{
     filter:blur(190px);
 }
 /* End image generator */
+.video-para-div{
+    margin-top:100px ;
+}
+  
 /* start video generator */
-/* End video generator */
+video{
+    border-radius: 10px;
+    width:30rem;
+    /* border:7px solid rgba(94, 94, 94, 0.363); */
+}
+.video-div{
+    margin-top:150px;
+}
+@media only screen and (max-width:884px){
+    .video-para-div{
+        margin-top:20px ;
+    }
+    .video-div{
+        margin-top:80px;
+    }
+}  
+@media only screen and (max-width:450px){
+    video{
+        border-radius: 10px;
+        width:20rem;
+        /* border:7px solid rgba(94, 94, 94, 0.363); */
+    }
+}
+@media only screen and (max-width:320px){
+    video{
+        border-radius: 10px;
+        width:17rem;
+        /* border:7px solid rgba(94, 94, 94, 0.363); */
+    }
+}
