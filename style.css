@@ -30,7 +30,7 @@
 body{
     /* background-color:lightblue!important; */
     background-color: #19171c;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 /* Navbar start */
 .navbar{
@@ -296,6 +296,14 @@ body{
 .slide-track:nth-child(2){
     animation: animate2 var(--t) linear infinite;
     animation-delay: calc(var(--t)/-2);
+}
+.toolkit{
+    margin-top:100px ;
+ }
+@media only screen and (max-width:425px){
+    .toolkit{
+       margin-top:10px ;
+    }
 }
 /* End Toolkit */
 /* start image generator  */
