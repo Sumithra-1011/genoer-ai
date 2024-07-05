@@ -307,14 +307,16 @@ body{
 }
 /* End Toolkit */
 /* start image generator  */
+.image-generator{
+    margin-top: 100px;
+}
 .imgage-background-liner{
     margin-top:200px;
     width:300px;
     height:300px;
-    /* border: 2px solid white; */
- background: rgb(233,71,156);
- background: linear-gradient(117deg, rgba(233,71,156,1) 40%, rgba(43,203,186,1) 100%);
- filter: blur(80px);
+    background: rgb(233,71,156);
+    background: linear-gradient(117deg, rgba(233,71,156,1) 40%, rgba(43,203,186,1) 100%);
+    filter: blur(80px);
 }
 
 .image-generator-image{
@@ -425,3 +427,216 @@ video{
         /* border:7px solid rgba(94, 94, 94, 0.363); */
     }
 }
+/* start how working */
+.how-work h1{
+    font-family:"Koh Santepheap", serif; 
+    font-size:30px;
+    font-weight: bold;
+}
+.how-work p{
+    font-size: 16px;
+    letter-spacing:0.6px
+}
+.how-work h1 span{
+    border:1px solid white;
+    border-radius:50%;
+    padding:2px 15px;
+}
+.how-work-one{
+    position: absolute;
+    top:150px;
+    left:700px;
+}
+.how-work-two{
+    position: absolute;
+    top:700px;
+    left:150px;
+}
+.how-work-three{
+    position: absolute;
+    top:1270px;
+    left:700px;
+}
+
+@media only screen and (max-width:1377px){
+    .how-work-two{
+        top:500px;
+        left:150px;
+    }
+    .how-work-three{
+        top:1100px;
+        left:500px;
+    }
+}
+@media only screen and (max-width:1200px){
+    .how-work-one{
+        top:100px;
+        left:580px;
+        margin-right: 5px;
+        /* border:2px solid white; */
+    
+    }
+    .how-work-two{
+        top:420px;
+        left:150px;
+    }
+    .how-work-three{
+        top:900px;
+        left:500px;
+        /* border:2px solid white; */
+    }
+}
+@media only screen and (max-width:992px){
+    .how-work p{
+        display:none;
+    }
+    .how-work-one{
+        top:100px;
+        left:400px;
+        margin-right: 5px;
+    }
+    .how-work-two{
+        top:320px;
+        left:100px;
+    }
+    .how-work-three{
+        top:700px;
+        left:400px;
+    }
+}
+@media only screen and (max-width:768px){
+    .how-work h1{
+        font-size:20px;
+    }
+    .how-work-one{
+        top:80px;
+        left:400px;
+        margin-right: 5px;
+    }
+    .how-work-two{
+        top:310px;
+        left:80px;
+    }
+    .how-work-three{
+        top:700px;
+        left:300px;
+    }
+}
+@media only screen and (max-width:767px){
+    .how-work h1{
+        font-size:20px;
+    }
+    .how-work-one{
+        top:80px;
+        left:400px;
+        margin-right: 5px;
+    }
+    .how-work-two{
+        top:310px;
+        left:80px;
+    }
+    .how-work-three{
+        top:500px;
+        left:300px;
+    }
+}
+@media only screen and (max-width:552px){
+    .how-work-one{
+        top:70px;
+        left:280px;
+        margin-right: 5px;
+    }
+    .how-work-two{
+        top:250px;
+        left:40px;
+    }
+    .how-work-three{
+        top:450px;
+        left:230px;
+    }
+}
+@media only screen and (max-width:479px){
+    .how-work-one{
+        top:70px;
+        left:280px;
+        margin-right: 5px;
+    }
+    .how-work-two{
+        top:230px;
+        left:40px;
+    }
+    .how-work-three{
+        top:380px;
+        left:230px;
+    }
+}
+@media only screen and (max-width:448px){
+    .how-work h1{
+        font-family:"Koh Santepheap", serif; 
+        font-size:16px;
+        font-weight: bold;
+    }
+    .how-work-one{
+        top:70px;
+        left:200px;
+        margin-right: 5px;
+    }
+    .how-work-two{
+        top:200px;
+        left:30px;
+        word-wrap: warp;
+    }
+    .how-work-three{
+        top:320px;
+        left:200px;
+    }
+}
+
+@media only screen and (max-width:368px){
+    .how-work h1{
+        font-family:"Koh Santepheap", serif; 
+        font-size:14px;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width:341px){
+    .how-work h1{                                                                 
+        font-family:"Koh Santepheap", serif; 
+        font-size:12px;
+        font-weight: bold;
+    }
+    .how-work h1 span{
+        display:none;
+    }
+}
+
+@media only screen and (max-width:330px){
+    .how-work-one{
+        top:30px;
+        left:150px;
+        margin-right: 5px;
+    }
+    .how-work-two{
+        top:140px;
+        left:30px;
+        word-wrap: warp;
+    }
+    .how-work-three{
+        top:230px;
+        left:140px;
+    }
+}
+.how-background-gradient{
+    top:1700px;
+    left:-200px;
+    /* border: 2px solid white; */
+}
+.how-inner-gradient{
+    width:600px ;
+    height:1000px;
+    background: rgb(83,55,255);
+    background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
+    filter:blur(190px);
+}
+/* end how working */
