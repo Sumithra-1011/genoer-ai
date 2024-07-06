@@ -338,7 +338,7 @@ body{
         /* border: 2px solid white; */
     }
 }
-@media only screen and (max-width:425px){
+@media only screen and (max-width:430px){
     .imgage-background-liner{
         margin-top:100px ;
     }
@@ -391,6 +391,21 @@ body{
     background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
     filter:blur(190px);
 }
+@media only screen and (max-width:576px){
+    .image-background-gradient{
+        top:1100px;
+        right:-250px;
+        /* border: 2px solid white; */
+        
+    }
+    .image-inner-gradient{
+        width:400px ;
+        height:600px;
+        background: rgb(83,55,255);
+        background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
+        filter:blur(120px);
+    }
+} 
 /* End image generator */
 .video-para-div{
     margin-top:100px ;
@@ -554,6 +569,9 @@ video{
         top:450px;
         left:230px;
     }
+    .how-work h1 span{
+        display:none;
+    }
 }
 @media only screen and (max-width:479px){
     .how-work-one{
@@ -606,9 +624,7 @@ video{
         font-size:12px;
         font-weight: bold;
     }
-    .how-work h1 span{
-        display:none;
-    }
+    
 }
 
 @media only screen and (max-width:330px){
@@ -639,4 +655,97 @@ video{
     background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
     filter:blur(190px);
 }
+@media only screen and (max-width:768px){
+    .how-inner-gradient{
+        width:600px ;
+        height:700px;
+        background: rgb(83,55,255);
+        background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
+        filter:blur(190px);
+    }
+}
+@media only screen and (max-width:576px){
+    .how-inner-gradient{
+        width:600px ;
+        height:350px;
+        background: rgb(83,55,255);
+        background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
+        filter:blur(190px);
+    }
+}
+@media only screen and (max-width:380px){
+    .how-inner-gradient{
+        width:600px ;
+        height:200px;
+        background: rgb(83,55,255);
+        background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
+        filter:blur(140px);
+    }
+}
 /* end how working */
+/* ai chat start */
+.chat{
+    margin-top: 100px;
+}
+.chat-generator-para-div{
+    margin-top:120px ;
+}
+@media only screen and (max-width:992px){
+    .chat-generator-para-div{
+    margin-top:50px ;
+    }
+}
+@media only screen and (max-width:576px){
+    .chat{
+        margin-top:60px;
+    }
+}
+/* ai chat end */
+/* ai voice over  start */
+.voice-over-div{
+    margin-top: 100px;
+}
+.voice-para-div{
+    margin-top:120px ;
+}
+@media only screen and (max-width:992px){
+    .voice-para-div{
+    margin-top:50px ;
+    }
+}
+@media only screen and (max-width:576px){
+    .voice-over-div{
+        margin-top:60px;
+    }
+}
+.voice-background-gradient{
+    bottom:50px;
+    left:-200px;
+    /* border: 2px solid white; */
+}
+.voice-inner-gradient{
+    width:600px ;
+    height:500px;
+    background: rgb(83,55,255);
+    background: linear-gradient(-97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
+    filter:blur(150px);
+}
+@media only screen and (max-width:576px){
+    .voice-inner-gradient{
+        width:500px ;
+        height:400px;
+        background: rgb(83,55,255);
+        background: linear-gradient(-97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
+        filter:blur(120px);
+    }
+}
+@media only screen and (max-width:576px){
+    .voice-inner-gradient{
+        width:500px ;
+        height:400px;
+        background: rgb(83,55,255);
+        background: linear-gradient(-97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
+        filter:blur(120px);
+    }
+}
+/* ai ovice over end  */
