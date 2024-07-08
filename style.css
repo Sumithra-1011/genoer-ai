@@ -719,7 +719,7 @@ video{
     }
 }
 .voice-background-gradient{
-    bottom:50px;
+    top:2300px;
     left:-200px;
     /* border: 2px solid white; */
 }
@@ -739,13 +739,76 @@ video{
         filter:blur(120px);
     }
 }
-@media only screen and (max-width:576px){
-    .voice-inner-gradient{
-        width:500px ;
-        height:400px;
-        background: rgb(83,55,255);
-        background: linear-gradient(-97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
-        filter:blur(120px);
+@media only screen and (max-width:1200px){
+    .voice-background-gradient{
+        top:2500px;
     }
 }
+@media only screen and (max-width:992px){
+    .voice-background-gradient{
+        top:3200px;
+    }
+}
+@media only screen and (max-width:576px){
+    .voice-background-gradient{
+        top:2850px;
+    }
+}
+
+
 /* ai ovice over end  */
+/* start custom template */
+/* start Toolkit */
+.slide-custom{
+    width:345px;
+    height: 178px;
+    background-color:rgba(86, 86, 86, 0.141);
+    border: 1px solid #6e6e6e;
+    border-radius: 10px;
+    display: inline-flex;
+    margin: 0 10px;
+}
+.slide-custom h5{
+    font-family: "Koh Santepheap", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.slider-custom{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    /* -webkit-mask-image: linear-gradient(90deg, white,#432eb7 20% ,#d71010 80%, transparent); */
+}
+.slide-track-custom{
+    white-space:nowrap;
+    animation: animate-custom var(--time) linear infinite;
+    animation-delay: calc(var(--time)*-1);
+}
+.slide-track-custom p{
+    white-space:wrap;
+    
+}
+@keyframes animate-custom{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+@keyframes animate2-custom{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+} 
+.slide-track-custom:nth-child(2){
+    animation: animate2-custom var(--time) linear infinite;
+    animation-delay: calc(var(--time)/ 2 * -1);
+}
+
+
+
+/* end custom template */
