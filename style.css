@@ -861,10 +861,18 @@ video{
 
 }
 .price-1{
-    background-color:#D9D9D9;
+    background-color:#161a20;
     border: 1px solid #6e6e6e;
     width:345px;
     height:539px ;
+    border-radius: 10px;
+}
+.price-2{
+    background-color:#161a20;
+    border: 1px solid #6e6e6e;
+    width:345px;
+    height:539px ;
+    border-radius: 10px;
 }
 
 
