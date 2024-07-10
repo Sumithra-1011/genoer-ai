@@ -814,6 +814,18 @@ video{
     background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
     filter:blur(190px);
 }
+.pricing-container,
+.custom-temp,
+.Frequently-container{
+    margin-top:80px;
+}
+@media only screen and (max-width:576px){
+    .pricing-container,
+    .custom-temp,
+    .Frequently-container{
+    margin-top:50px;
+}
+}
 .btn-price-one button{
     padding: 10px 30px;
     border-radius: 40px;
@@ -851,8 +863,6 @@ video{
     align-items: center;
     border: none;
     color: white;
-    /* margin: 10px; */
-    /* background: #161a20; */
    background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgba(220,41,172,1) 100%);
 
 }
@@ -874,6 +884,97 @@ video{
     height:539px ;
     border-radius: 10px;
 }
+.price-1 h4{
+    font-family: "Koh Santepheap", serif;
+    font-weight: 400;
+    font-size:32px ;
+}
+.price-1 p{
+    font-size: 14px;
+}
+.price-1 ul{
+    list-style-type: none;
+}
+.pricing-a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid #D350FF;
+    border-radius: 30px;
+    padding: 10px 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:#161a20; */
+}
+.pricing-a:hover{
+   background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%);
+   border:none;
+}
+.pricing-a-div{
+    border-bottom: 2px dotted gray;
+    padding-bottom:25px;
+}
+.price-2{
+    border: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.price-2::after{
+content: '';
+width: 101%;
+height: 101%;
+position: absolute;
+/* background-color: #D326AB; */
+background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%);
 
-
+z-index: -1;
+border-radius: 10px;
+}
+.pop-title{
+    margin-left:260px;
+    color:transparent;
+    background-image:linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%) ;
+    -webkit-background-clip: text;
+    font-weight: 600;
+}
 /* end pricing section */
+/* start frequently asked question */
+.accordion{
+    border: none;
+    border-color: none;
+    border-width: none;
+}
+.accordion-item{
+    margin-top: 10px;
+    background-color:#100425;
+    border: none;
+    border-color: none;
+    color: white;
+    border-radius: 10px;
+    border-left: 3px solid #5337FF;
+
+}
+.accordion-header button{
+    background-color:#100425!important;
+    padding:18px;
+}
+
+.accordion-header  button{
+    color: white !important;
+
+}
+.accordion-body{
+    border-top: none;
+    border-color: none;
+    border-width: 0px;
+}
+
+.accordion button:focus{
+    box-shadow: none;
+}
+/* end frequently asked question */
+
