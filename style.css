@@ -877,13 +877,7 @@ video{
     height:539px ;
     border-radius: 10px;
 }
-.price-2{
-    background-color:#161a20;
-    border: 1px solid #6e6e6e;
-    width:345px;
-    height:539px ;
-    border-radius: 10px;
-}
+
 .price-1 h4{
     font-family: "Koh Santepheap", serif;
     font-weight: 400;
@@ -928,11 +922,12 @@ content: '';
 width: 101%;
 height: 101%;
 position: absolute;
-/* background-color: #D326AB; */
 background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%);
-
 z-index: -1;
 border-radius: 10px;
+}
+@media only screen and (max-width:375px){
+   
 }
 .pop-title{
     margin-left:260px;
@@ -941,40 +936,61 @@ border-radius: 10px;
     -webkit-background-clip: text;
     font-weight: 600;
 }
+@media only screen and (max-width:375px){
+    .pop-title{
+        margin-left:180px;
+        color:transparent;
+        background-image:linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%) ;
+        -webkit-background-clip: text;
+        font-weight: 600;
+    }
+}
 /* end pricing section */
 /* start frequently asked question */
 .accordion{
-    border: none;
-    border-color: none;
-    border-width: none;
+    --bs-accordion-border-color:none;
+}
+.accordion-button::after{
+    content: '';
+    background-image: url(images/angle-down-solid\ \(2\).svg) !important;
+    /* background-color: #5337FF; */
+    border-radius:3px;
+    transform: scale(1.1);
+    transition: .5s !important;
 }
 .accordion-item{
     margin-top: 10px;
     background-color:#100425;
+    /* background-color:#161a20; */
     border: none;
     border-color: none;
     color: white;
     border-radius: 10px;
     border-left: 3px solid #5337FF;
-
 }
 .accordion-header button{
     background-color:#100425!important;
+    border-radius: 10px;
     padding:18px;
-}
-
-.accordion-header  button{
     color: white !important;
-
+    border: none;
+    border-bottom: none;
 }
-.accordion-body{
-    border-top: none;
-    border-color: none;
-    border-width: 0px;
-}
-
 .accordion button:focus{
     box-shadow: none;
 }
+.background-gradient-question{
+    top:1000px;
+    left:-200px;
+    /* border: 2px solid white; */
+}
+.inner-gradient-question{
+    width:600px ;
+    height:800px;
+    background: rgb(83,55,255);
+    background: linear-gradient(-97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
+    filter:blur(190px);
+}
 /* end frequently asked question */
+/* start  */
 
