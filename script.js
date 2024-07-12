@@ -23,3 +23,22 @@ function videoScroll() {
   }
 
 }
+// owl carousel
+$('.owl-carousel').owlCarousel({
+  autoplay: true,
+  loop:true,
+  margin:0,
+  dots: false,
+  nav:false,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:1
+      },
+      1000:{
+          items:3
+      }
+  }
+})
