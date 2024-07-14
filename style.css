@@ -1027,7 +1027,7 @@ border-radius: 10px;
     
 }
 .item{
-    width: 357px;
+    width: 345px;
     height:172px;
     border-radius: 10px;
     position: relative;
@@ -1038,12 +1038,25 @@ border-radius: 10px;
     border: none;
     background-color:rgba(86, 86, 86, 0.141);
     border: 1px solid #6e6e6e;
-    
+    padding-left: 10px;
+}
+@media only screen and (max-width:900px){
+    .item{
+      margin-left: 100px;
+    }
+
+}
+@media only screen and (max-width:576px){
+    .item{
+        width:300px;
+    }
+
+
 }
 /* .item::after{
     content: '';
     width:102%;
-    height:102%;
+    height:180%;
     position: absolute;
     background: rgb(83,55,255);
     background: linear-gradient(-97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
