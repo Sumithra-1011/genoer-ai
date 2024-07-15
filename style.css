@@ -1018,51 +1018,47 @@ border-radius: 10px;
 /* end frequently asked question */
 /* start customers */
 .owl-carousel {
-    /* border: 2px solid white; */
-    /* padding: 20px; */
-    /* height: 500px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .item{
-    width: 357px;
+    width:357px;
     height:172px;
     border-radius: 10px;
-    position: relative;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
     background-color:rgba(86, 86, 86, 0.141);
-    border: 1px solid #6e6e6e;
+    border: 1px solid hsl(0, 0%, 43%);
     padding-left: 10px;
-}
-@media only screen and (max-width:900px){
-    .item{
-      margin-left: 100px;
-    }
+    margin: auto;
 
+}
+@media only screen and (max-width:1200px){
+    .item{
+        width:270px;
+        height:185px;
+    }
+}
+@media only screen and (max-width:992px){
+    .item{
+        width:357px;
+        height:172px;
+    }
 }
 @media only screen and (max-width:576px){
     .item{
-        width:300px;
-        /* width: 100%; */
+        width:280px;
+        height: 190px;
+        margin: auto;
     }
-
-
 }
-/* .item::after{
-    content: '';
-    width:102%;
-    height:180%;
-    position: absolute;
-    background: rgb(83,55,255);
-    background: linear-gradient(-97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
-    border-radius:10px;
-    z-index:-1;
-} */
+@media only screen and (max-width:320px){
+    .item{
+        width:245px;
+        height: 215px;
+        margin: auto;
+    }
+}
+
 .item p{
     font-size: 14px;
 }
@@ -1075,4 +1071,55 @@ border-radius: 10px;
 }
 
 /* end customers */
+/* last-banaer start */
+.last-baner{
+    width: 100%;
+    background: rgb(83,55,255);
+    background: linear-gradient(146deg, rgba(83,55,255,1) 9%, rgba(211,80,255,1) 50%, rgba(220,41,172,1) 92%);
+   border-radius: 10px;
+   margin-top:100px;
+}
+@media only screen and (max-width:576px){
+    .last-baner{
+       margin-top:50px;
+    }
+}
+
+.last-baner h2{
+    font-size: 32px;
+    font-family: "Koh Santepheap", serif;
+    font-weight: bold;
+    
+}
+.last-img-row{
+    padding-top:30px ;
+    /* padding-bottom:10px; */
+
+}
+.last-img{
+    padding-left: 100px;
+    /* border: 2px solid; */
+
+}
+@media only screen and (max-width:992px){
+    .last-img{
+      padding-left:0px;
+      /* border: 2px solid; */
+    }
+}
+/* last-banaer end */
+/* footer  sart*/
+.footer{
+    border-radius:10px;
+    border-top: 2px solid #5337FF;
+    margin-top: 100px;
+}
+.footer ul li{
+    list-style-type: none;
+    margin-top:15px;
+    margin-left:-30px;
+    /* border: 2px solid; */
+
+}
+/* footer end */
 

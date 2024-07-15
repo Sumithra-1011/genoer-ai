@@ -27,20 +27,20 @@ function videoScroll() {
 $('.owl-carousel').owlCarousel({
   autoplay: true,
   loop:true,
-  margin:100,
+  margin:50,
   smartSpeed: 1000,
   center: true,
-  dots: false,
+  dots:true,
   nav:false,
   responsive:{
       0:{
           items:1
       },
-      900:{
+      992:{
           items:1
       },
       1000:{
-          items:3
-      }
+          items:3,
+      },
   }
 })
