@@ -33,6 +33,10 @@ body{
     background-color: #19171c;
     overflow-x: hidden !important;
 }
+::-webkit-scrollbar{
+    /* background: #5337FF; */
+    width: 0;
+}
 /* Navbar start */
 .navbar{
     background: rgb(83,55,255);
@@ -54,6 +58,13 @@ body{
 .navbar .nav-item .nav-link:hover{
     border:1px solid ;
     border-radius: 5px;
+}
+@media only screen and (max-width:992px) {
+    .navbar .nav-item .nav-link{
+        width:150px;
+        padding-left: 10px;
+        
+    }
 }
 
 /* btn one */
@@ -177,17 +188,13 @@ body{
 @keyframes headimage{
     0%{
         bottom:0;
-        /* left: 0; */
     }
     50%{
         bottom:30px;
-        /* left: 30px; */
     }
     100%{
         bottom: 0;
-        /* left: 0; */
     }
-
 }
 /* Head of the section end */
 /* start about-us */
@@ -266,7 +273,6 @@ body{
     }
     .future-inner-box-six{
         height:345px;
-
     }
 }
 /*  End future section*/
@@ -403,7 +409,7 @@ body{
     }
 }
 .image-background-gradient{
-    top:1000px;
+    top:4000px;
     right:-250px;
     /* border: 2px solid white; */
     
@@ -417,7 +423,7 @@ body{
 }
 @media only screen and (max-width:576px){
     .image-background-gradient{
-        top:1100px;
+        top:4100px;
         right:-250px;
         /* border: 2px solid white; */
         
@@ -743,7 +749,7 @@ video{
     }
 }
 .voice-background-gradient{
-    top:2300px;
+    top:5500px;
     left:-200px;
     /* border: 2px solid white; */
 }
@@ -754,31 +760,43 @@ video{
     background: linear-gradient(-97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
     filter:blur(200px);
 }
-@media only screen and (max-width:576px){
-    .voice-inner-gradient{
-        width:500px ;
-        height:400px;
-        background: rgb(83,55,255);
-        background: linear-gradient(-97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
-        filter:blur(120px);
-    }
-}
+
 @media only screen and (max-width:1200px){
     .voice-background-gradient{
-        top:2500px;
+        top:5200px;
     }
 }
 @media only screen and (max-width:992px){
     .voice-background-gradient{
-        top:3200px;
+        top:6000px;
+    }
+}
+@media only screen and (max-width:768px){
+    .voice-background-gradient{
+        top:5700px;
     }
 }
 @media only screen and (max-width:576px){
-    .voice-background-gradient{
-        top:2850px;
+    .voice-inner-gradient{
+        height:400px;
+        filter:blur(120px);
     }
 }
-
+@media only screen and (max-width:500px){
+    .voice-background-gradient{
+        top:5400px;
+    }
+}
+@media only screen and (max-width:430px){
+    .voice-background-gradient{
+        top:5100px;
+    }
+}
+@media only screen and (max-width:360px){
+    .voice-background-gradient{
+        top:500px;
+    }
+}
 
 /* ai ovice over end  */
 /* start custom template */
@@ -912,7 +930,7 @@ video{
     background-color:#161a20;
     border: 1px solid #6e6e6e;
     width:345px;
-    height:539px ;
+    height:590px ;
     border-radius: 10px;
 }
 
@@ -964,10 +982,21 @@ background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%)
 z-index: -1;
 border-radius: 10px;
 }
-@media only screen and (max-width:375px){
-   
+.pricing-more a{
+    color: white;
+    text-decoration: none;
+    border:1px solid gray;
+    border-radius:30px;
+    padding:7px 15px;
+    font-size: 14px;
+    opacity:0.3;
+    margin-top:0px;
 }
-.pop-title{
+.pricing-more a:hover{
+    background-color: #6e6e6e;
+    opacity: 0.8;
+}
+/* .pop-title{
     margin-left:260px;
     color:transparent;
     background-image:linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%) ;
@@ -982,7 +1011,7 @@ border-radius: 10px;
         -webkit-background-clip: text;
         font-weight: 600;
     }
-}
+} */
 /* end pricing section */
 /* start frequently asked question */
 .accordion{

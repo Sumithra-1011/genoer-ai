@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- owl cnd css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- AOS animaction cdn css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     
 </head>
@@ -34,7 +37,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="#">About</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Features</a>
@@ -57,7 +60,7 @@
      </nav>
     <!-- Navbar end -->
     <!-- Head of the section start -->
-    <div class="container-fluid position-relative" style="width:100%;">
+    <div class="container-fluid position-relative overflow-x-hidden" style="width:100%;">
       <div class="container text-white carousel ps-3 ps-lg-0">
         <div class="row">
           <div class="col-lg-6" >
@@ -69,7 +72,7 @@
             <!-- <div class="row mx-auto mt-3">
               <p class="border p-3 rounded-pill col-8 col-md-6">Predicted Performance</p>
             </div> -->
-            <button class="btn-two mt-3"><img src="/images/star.png" class="me-1">Get Started </button>
+            <button class="btn-two mt-3"><img src="/images/star.png" class="me-1"><a href="#" class="text-white link-underline link-underline-opacity-0">Get Started </a></button>
             
           </div> 
           <div class="col-lg-6">
@@ -267,25 +270,25 @@
         </div>
       <!-- End Toolkit -->
       <!-- start how it's work -->
-      <div class="container">
-        <div class="row">
+      <div class="container" style="margin-bottom: 100px;">
+        <div class="row" style="overflow-x: hidden;">
           <div class="col-12 col-md-8 col-xl-7 mx-auto">
             <h1 class=" text-center mt-2 main-title mb-5">How it works</h1>
           </div>
           <div class="how-work text-white text-opacity-75 mt-2 position-relative">
-            <div class="col-lg-5 how-work-one">
-              <h1><span class="me-2">1</span>Sign Up</h1>
+            <div class="col-lg-5 how-work-one" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+              <h1><span class="me-2" >1</span>Sign Up</h1>
               <p>
                 Sign up for Genoer by entering your name, email address, and password. Enjoy personalized experiences, secure access, and exclusive features.
               </p>
             </div>
-            <div class="col-lg-5 how-work-two">
+            <div class="col-lg-5 how-work-two" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
               <h1><span class="me-2">2</span>Generate Content</h1>
               <p>
                 Let the AI work its magic to create high-quality content based on your input. Just provide basic information or keywords about your brand or product, and our AI algorithms will take it from there.
               </p>
             </div>
-            <div class="col-lg-5 how-work-three">
+            <div class="col-lg-5 how-work-three" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
               <h1> <span class="me-2">3</span> Response Delivery and Iteration</h1>
               <p>
                 Easily view, edit, or export your result with just a few clicks to complete the process.
@@ -302,317 +305,313 @@
       <div class="row how-background-gradient z-n1 position-absolute">
         <div class="how-inner-gradient"></div>
       </div>
-    </div>
- 
-    <!-- start image generator -->
-    <div class="container-fluid position-relative image-generator" style="width:100%;">
-      <div class="container">
+       <!-- start image generator -->
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-8 col-xl-6 mx-auto">
+              <h5 class="sub-title">Image Generator</h5>
+              <h1 class=" text-center mt-2 main-title">Create Exceptional AI Images with Just a<span> Single Prompt</span></h1>
+            </div>
+          </div>
+          <div class="row position-relative">
+            <div class="col-lg-7 mx-md-auto d-flex justify-content-center imgage-background-liner">
+            </div>
+            <div class="col-lg-7 mx-md-auto d-flex justify-content-center position-absolute image-generator-image-div" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+               <img src="/images/image-generator.png" class="img-fluid image-generator-image">                 
+            </div>
+            <div class="col-lg-5 col-md-9 mx-md-auto mx-lg-0 text-white text-opacity-75 image-generator-para-div"   data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out" style="overflow-x: hidden;">
+              <div class="mb-4">
+               <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Transform your ideas into captivating visuals instantly with our AI image generator.</p>
+              </div>
+              <div class="mb-4">
+                <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Unlock limitless creativity with our AI image generator, producing mesmerizing visuals at your command.</p>
+               </div>
+               <div class="mb-4">
+                <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Enhance your content creation process with stunning visuals created in seconds.</p>
+               </div>
+               <button class="btn-two mt-3 ps-1 pe-2" style="width:210px;"><img src="/images/star.png" class="me-1"><a href="#" class="text-white link-underline link-underline-opacity-0">Generate AI Image</a></button> 
+            </div>
+          </div>
+        </div> 
+       <!-- end image generator -->
+       <!-- Start video generator -->
+        <div class="row image-background-gradient z-n1 position-absolute">
+          <div class="image-inner-gradient"></div>
+        </div>
+       <div class="container video-div">
         <div class="row">
-          <div class="col-12 col-md-8 col-xl-6 mx-auto">
-            <h5 class="sub-title">Image Generator</h5>
-            <h1 class=" text-center mt-2 main-title">Create Exceptional AI Images with Just a<span> Single Prompt</span></h1>
+          <div class="col-12 col-md-8 col-xl-7 mx-auto">
+            <h5 class="sub-title">Video Generator</h5>
+            <h1 class=" text-center mt-2 main-title">Revitalize Images into Captivating Videos with <span>AI Technology</span></h1>
+          </div>
+        </div>
+        <div class="row video-para-div" style="overflow-x:hidden;">
+          <div class="col-lg-5 col-md-9 mx-md-auto mx-lg-0 text-white text-opacity-75" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <div class="mb-4">
+             <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Transform static images into captivating videos with ease using our AI video tool.</p>
+            </div>
+            <div class="mb-4">
+              <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Effortlessly enhance your storytelling with visually engaging videos created in minutes.</p>
+             </div>
+             <div class="mb-4">
+              <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Elevate your content with visually stunning videos generated seamlessly from static images.</p>
+             </div>
+             <button class="btn-two mt-3 ps-1 pe-2" style="width:210px;"><img src="/images/star.png" class="me-1"><a href="#" class="text-white link-underline link-underline-opacity-0">Generate AI Video</a></button> 
+          </div>
+          <div class="col-lg-7 mx-md-auto mt-lg-0 mt-5 d-flex justify-content-center" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+             <video class="object-fit-cover" autoplay loop muted playsinline >
+              <source src="/video/video-1.mp4" type="video/mp4" id="sour">
+              Your browser does not support HTML5 video.
+             </video>               
+          </div>
+        </div>
+       <!-- End video generator -->
+  
+        <!-- start chat generation -->
+        <div class="row chat">
+          <div class="col-12 col-xl-8 mx-auto">
+            <h5 class="sub-title">AI Chat</h5>
+            <h1 class=" text-center mt-2 main-title">Transforming Communication with<span>Intelligent Conversations</span></h1>
           </div>
         </div>
         <div class="row position-relative">
-          <div class="col-lg-7 mx-md-auto d-flex justify-content-center imgage-background-liner">
+          <div class="col-lg-7 mx-md-auto  mt-4 mt-md-5 d-flex justify-content-center" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+             <img src="/images/Group 116.svg" class="img-fluid">                 
           </div>
-          <div class="col-lg-7 mx-md-auto d-flex justify-content-center position-absolute image-generator-image-div">
-             <img src="/images/image-generator.png" class="img-fluid image-generator-image">                 
-          </div>
-          <div class="col-lg-5 col-md-9 mx-md-auto mx-lg-0 text-white text-opacity-75 image-generator-para-div">
+          <div class="col-lg-5 col-md-9 mx-md-auto mx-lg-0 text-white text-opacity-75 chat-generator-para-div " data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
             <div class="mb-4">
-             <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Transform your ideas into captivating visuals instantly with our AI image generator.</p>
+             <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Streamline communication processes and improve efficiency by automating responses and handling inquiries using our AI chat solution.</p>
             </div>
-            <div class="mb-4">
-              <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Unlock limitless creativity with our AI image generator, producing mesmerizing visuals at your command.</p>
-             </div>
-             <div class="mb-4">
-              <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Enhance your content creation process with stunning visuals created in seconds.</p>
-             </div>
-             <button class="btn-two mt-3 ps-1 pe-2" style="width:210px;"><img src="/images/star.png" class="me-1">Generate AI Image </button> 
+             <button class="btn-two mt-3 ps-1 pe-2" style="width:210px;"><img src="/images/star.png" class="me-1"><a href="#" class="text-white link-underline link-underline-opacity-0">Generate AI Chat</a></button> 
           </div>
         </div>
-      </div> 
-     <!-- end image generator -->
-     <!-- Start video generator -->
-      <div class="row image-background-gradient z-n1 position-absolute">
-        <div class="image-inner-gradient"></div>
-      </div>
-     <div class="container video-div">
-      <div class="row">
-        <div class="col-12 col-md-8 col-xl-7 mx-auto">
-          <h5 class="sub-title">Video Generator</h5>
-          <h1 class=" text-center mt-2 main-title">Revitalize Images into Captivating Videos with <span>AI Technology</span></h1>
-        </div>
-      </div>
-      <div class="row video-para-div">
-        <div class="col-lg-5 col-md-9 mx-md-auto mx-lg-0 text-white text-opacity-75">
-          <div class="mb-4">
-           <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Transform static images into captivating videos with ease using our AI video tool.</p>
-          </div>
-          <div class="mb-4">
-            <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Effortlessly enhance your storytelling with visually engaging videos created in minutes.</p>
-           </div>
-           <div class="mb-4">
-            <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Elevate your content with visually stunning videos generated seamlessly from static images.</p>
-           </div>
-           <button class="btn-two mt-3 ps-1 pe-2" style="width:210px;"><img src="/images/star.png" class="me-1">Generate AI Video </button> 
-        </div>
-        <div class="col-lg-7 mx-md-auto mt-lg-0 mt-5 d-flex justify-content-center">
-           <video class="object-fit-cover" autoplay loop muted playsinline >
-            <source src="/video/video-1.mp4" type="video/mp4" id="sour">
-            Your browser does not support HTML5 video.
-           </video>               
-        </div>
-      </div>
-     <!-- End video generator -->
-
-      <!-- start chat generation -->
-      <div class="row chat">
-        <div class="col-12 col-xl-8 mx-auto">
-          <h5 class="sub-title">AI Chat</h5>
-          <h1 class=" text-center mt-2 main-title">Transforming Communication with<span>Intelligent Conversations</span></h1>
-        </div>
-      </div>
-      <div class="row position-relative">
-        <div class="col-lg-7 mx-md-auto  mt-4 mt-md-5 d-flex justify-content-center">
-           <img src="/images/Group 116.svg" class="img-fluid">                 
-        </div>
-        <div class="col-lg-5 col-md-9 mx-md-auto mx-lg-0 text-white text-opacity-75 chat-generator-para-div ">
-          <div class="mb-4">
-           <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Streamline communication processes and improve efficiency by automating responses and handling inquiries using our AI chat solution.</p>
-          </div>
-           <button class="btn-two mt-3 ps-1 pe-2" style="width:210px;"><img src="/images/star.png" class="me-1">Generate AI Chat </button> 
-        </div>
-      </div>
-      <!-- End chat generation -->
-      <!-- start ai voice over -->
-      <div class="voice-over-div">
-        <div class="row">
-          <div class="col-12 col-md-9 col-xl-7 mx-auto">
-            <h5 class="sub-title">AI Voice-over</h5>
-            <h1 class=" text-center mt-2 main-title">Deliver Exceptional Voiceovers Across Different <span>Styles and Tones </span></h1>
-          </div>
-        </div>
-        <div class="row ">
-          <div class="col-lg-5 col-md-9 mx-md-auto mx-lg-0 text-white text-opacity-75 voice-para-div">
-            <div class="mb-4">
-             <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Enhance your content with Audiosonic's natural voice generation, tailored for diverse applications like marketing, sales, education, and podcasts.</p>
+        <!-- End chat generation -->
+        <!-- start ai voice over -->
+        <div class="voice-over-div">
+          <div class="row">
+            <div class="col-12 col-md-9 col-xl-7 mx-auto">
+              <h5 class="sub-title">AI Voice-over</h5>
+              <h1 class=" text-center mt-2 main-title">Deliver Exceptional Voiceovers Across Different <span>Styles and Tones </span></h1>
             </div>
-            <div class="mb-4">
-              <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">You can choose from 30+ various voices and styles to match your needs.</p>
-             </div>
-             <button class="btn-two mt-3 ps-1 pe-2" style="width:260px;"><img src="/images/star.png" class="me-1">Generate AI Voiceover </button> 
           </div>
-          <div class="col-lg-7 mx-md-auto mt-lg-0 mt-5 d-flex justify-content-center">
-             <img src="/images/voice_over.png" class="img-fluid" style="width: 500px;">           
-          </div>
-        </div>
-      <!-- end ai voice over -->
-      </div> 
-      <!-- end ai voice over -->
-     </div>
-      <div class="row voice-background-gradient z-n1 position-absolute">
-        <div class="voice-inner-gradient"></div>
-      </div>
-      <!-- sart custom templates -->
-      <div class="container text-white text-opacity-75 custom-temp">
-        <div class="row">
-          <div class="col-12 col-md-8 col-xl-6 mx-auto">
-            <h1 class=" text-center mt-2 main-title">Custom<span>Templates</span></h1>
-            <p class="text-center">Effortlessly create professional-looking documents, presentations, and more with our customizable templates.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row text-white" style="letter-spacing:0.5px;margin-top:50px; margin-bottom: 100px;">
-        <div class="slider-custom">
-          <div class="slide-track-custom">
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-              <img src="/images/custom-8.png" class="img-fluid">
-              <h5 class="mt-3">Product Description</h5>
-              <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Easily create compelling product descriptions that sell. Increase conversions and boost sales.</p>
+          <div class="row ">
+            <div class="col-lg-5 col-md-9 mx-md-auto mx-lg-0 text-white text-opacity-75 voice-para-div" class="mb-4" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+              <div class="mb-4">
+               <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Enhance your content with Audiosonic's natural voice generation, tailored for diverse applications like marketing, sales, education, and podcasts.</p>
               </div>
+              <div class="mb-4">
+                <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">You can choose from 30+ various voices and styles to match your needs.</p>
+               </div>
+               <button class="btn-two mt-3 ps-1 pe-2" style="width:260px;"><img src="/images/star.png" class="me-1"><a href="#" class="text-white link-underline link-underline-opacity-0">Generate AI Voiceover</a></button> 
             </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-2.png">
-              <h5 class="mt-3">Article Generator</h5>
-              <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly create unique articles on any topic. Boost engagement, improve SEO, and save time.</p>
-              </div>
+            <div class="col-lg-7 mx-md-auto mt-lg-0 mt-5 d-flex justify-content-center" class="mb-4" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out">
+               <img src="/images/voice_over.png" class="img-fluid" style="width: 500px;">           
             </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-1.png">
-              <h5 class="mt-3">Testimonial Review</h5>
-              <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly generate authentic testimonials. Build trust and credibility with genuine reviews.</p>
-              </div>
+          </div>
+        <!-- end ai voice over -->
+        </div> 
+        <!-- end ai voice over -->
+       </div>
+        <div class="row voice-background-gradient z-n1 position-absolute">
+          <div class="voice-inner-gradient"></div>
+        </div>
+        <!-- sart custom templates -->
+        <div class="container text-white text-opacity-75 custom-temp">
+          <div class="row">
+            <div class="col-12 col-md-8 col-xl-6 mx-auto">
+              <h1 class=" text-center mt-2 main-title">Custom<span>Templates</span></h1>
+              <p class="text-center">Effortlessly create professional-looking documents, presentations, and more with our customizable templates.</p>
             </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-3.png">
-                <h5 class="mt-3">Youtube Video Description</h5>
+          </div>
+        </div>
+        <div class="row text-white" style="letter-spacing:0.5px;margin-top:50px; margin-bottom: 100px;">
+          <div class="slider-custom">
+            <div class="slide-track-custom">
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                <img src="/images/custom-8.png" class="img-fluid">
+                <h5 class="mt-3">Product Description</h5>
                 <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Easily create compelling product descriptions that sell. Increase conversions and boost sales.</p>
+                </div>
               </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-5.png">
-                <h5 class="mt-3">Email Generator</h5>
-                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Generate an email with your subject and description. Streamline your inbox and save time.</p>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-2.png">
+                <h5 class="mt-3">Article Generator</h5>
+                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly create unique articles on any topic. Boost engagement, improve SEO, and save time.</p>
+                </div>
               </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-4.png">
-                <h5 class="mt-3">Email Generator</h5>
-                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Generate an email with your subject and description. Streamline your inbox and save time.</p>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-1.png">
+                <h5 class="mt-3">Testimonial Review</h5>
+                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly generate authentic testimonials. Build trust and credibility with genuine reviews.</p>
+                </div>
               </div>
-            </div>
-            <!-- next slide start-->
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-              <img src="/images/custom-8.png" class="img-fluid">
-              <h5 class="mt-3">Product Description</h5>
-              <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Easily create compelling product descriptions that sell. Increase conversions and boost sales.</p>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-3.png">
+                  <h5 class="mt-3">Youtube Video Description</h5>
+                  <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Easily create compelling product descriptions that sell. Increase conversions and boost sales.</p>
+                </div>
               </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-2.png">
-              <h5 class="mt-3">Article Generator</h5>
-              <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly create unique articles on any topic. Boost engagement, improve SEO, and save time.</p>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-5.png">
+                  <h5 class="mt-3">Email Generator</h5>
+                  <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Generate an email with your subject and description. Streamline your inbox and save time.</p>
+                </div>
               </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-1.png">
-              <h5 class="mt-3">Testimonial Review</h5>
-              <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly generate authentic testimonials. Build trust and credibility with genuine reviews.</p>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-4.png">
+                  <h5 class="mt-3">Email Generator</h5>
+                  <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Generate an email with your subject and description. Streamline your inbox and save time.</p>
+                </div>
               </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-3.png">
-                <h5 class="mt-3">Youtube Video Description</h5>
+              <!-- next slide start-->
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                <img src="/images/custom-8.png" class="img-fluid">
+                <h5 class="mt-3">Product Description</h5>
                 <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Easily create compelling product descriptions that sell. Increase conversions and boost sales.</p>
+                </div>
               </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-5.png">
-                <h5 class="mt-3">Email Generator</h5>
-                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Generate an email with your subject and description. Streamline your inbox and save time.</p>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-2.png">
+                <h5 class="mt-3">Article Generator</h5>
+                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly create unique articles on any topic. Boost engagement, improve SEO, and save time.</p>
+                </div>
               </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-4.png">
-                <h5 class="mt-3">Instagram Captions</h5>
-                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Elevate your Instagram game with captivating captions. Generate unique captions that engage followers and increase your reach.</p>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-1.png">
+                <h5 class="mt-3">Testimonial Review</h5>
+                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly generate authentic testimonials. Build trust and credibility with genuine reviews.</p>
+                </div>
               </div>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-3.png">
+                  <h5 class="mt-3">Youtube Video Description</h5>
+                  <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Easily create compelling product descriptions that sell. Increase conversions and boost sales.</p>
+                </div>
+              </div>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-5.png">
+                  <h5 class="mt-3">Email Generator</h5>
+                  <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Generate an email with your subject and description. Streamline your inbox and save time.</p>
+                </div>
+              </div>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-4.png">
+                  <h5 class="mt-3">Instagram Captions</h5>
+                  <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Elevate your Instagram game with captivating captions. Generate unique captions that engage followers and increase your reach.</p>
+                </div>
+              </div>
+         
+              <!-- next slide end -->
             </div>
-       
-            <!-- next slide end -->
           </div>
-        </div>
-        <!-- secont scrolling animaction start -->
-        <div class="slider-custom mt-3">
-          <div class="slide-track-custom-two">
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-              <img src="/images/custom-8.png" class="img-fluid">
-              <h5 class="mt-3">Product Description</h5>
-              <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Easily create compelling product descriptions that sell. Increase conversions and boost sales.</p>
-              </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-2.png">
-              <h5 class="mt-3">Article Generator</h5>
-              <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly create unique articles on any topic. Boost engagement, improve SEO, and save time.</p>
-              </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-1.png">
-              <h5 class="mt-3">Testimonial Review</h5>
-              <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly generate authentic testimonials. Build trust and credibility with genuine reviews.</p>
-              </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-3.png">
-                <h5 class="mt-3">Youtube Video Description</h5>
+          <!-- secont scrolling animaction start -->
+          <div class="slider-custom mt-3">
+            <div class="slide-track-custom-two">
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                <img src="/images/custom-8.png" class="img-fluid">
+                <h5 class="mt-3">Product Description</h5>
                 <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Easily create compelling product descriptions that sell. Increase conversions and boost sales.</p>
+                </div>
               </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-5.png">
-                <h5 class="mt-3">Email Generator</h5>
-                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Generate an email with your subject and description. Streamline your inbox and save time.</p>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-2.png">
+                <h5 class="mt-3">Article Generator</h5>
+                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly create unique articles on any topic. Boost engagement, improve SEO, and save time.</p>
+                </div>
               </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-4.png">
-                <h5 class="mt-3">Email Generator</h5>
-                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Generate an email with your subject and description. Streamline your inbox and save time.</p>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-1.png">
+                <h5 class="mt-3">Testimonial Review</h5>
+                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly generate authentic testimonials. Build trust and credibility with genuine reviews.</p>
+                </div>
               </div>
-            </div>
-            <!-- next slide start-->
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-              <img src="/images/custom-8.png" class="img-fluid">
-              <h5 class="mt-3">Product Description</h5>
-              <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Easily create compelling product descriptions that sell. Increase conversions and boost sales.</p>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-3.png">
+                  <h5 class="mt-3">Youtube Video Description</h5>
+                  <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Easily create compelling product descriptions that sell. Increase conversions and boost sales.</p>
+                </div>
               </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-2.png">
-              <h5 class="mt-3">Article Generator</h5>
-              <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly create unique articles on any topic. Boost engagement, improve SEO, and save time.</p>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-5.png">
+                  <h5 class="mt-3">Email Generator</h5>
+                  <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Generate an email with your subject and description. Streamline your inbox and save time.</p>
+                </div>
               </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-1.png">
-              <h5 class="mt-3">Testimonial Review</h5>
-              <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly generate authentic testimonials. Build trust and credibility with genuine reviews.</p>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-4.png">
+                  <h5 class="mt-3">Email Generator</h5>
+                  <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Generate an email with your subject and description. Streamline your inbox and save time.</p>
+                </div>
               </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-3.png">
-                <h5 class="mt-3">Youtube Video Description</h5>
+              <!-- next slide start-->
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                <img src="/images/custom-8.png" class="img-fluid">
+                <h5 class="mt-3">Product Description</h5>
                 <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Easily create compelling product descriptions that sell. Increase conversions and boost sales.</p>
+                </div>
               </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-5.png">
-                <h5 class="mt-3">Email Generator</h5>
-                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Generate an email with your subject and description. Streamline your inbox and save time.</p>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-2.png">
+                <h5 class="mt-3">Article Generator</h5>
+                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly create unique articles on any topic. Boost engagement, improve SEO, and save time.</p>
+                </div>
               </div>
-            </div>
-            <div class="slide-custom p-2 ps-3 pt-3">
-              <div>
-                <img src="/images/custom-4.png">
-                <h5 class="mt-3">Instagram Captions</h5>
-                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Elevate your Instagram game with captivating captions. Generate unique captions that engage followers and increase your reach.</p>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-1.png">
+                <h5 class="mt-3">Testimonial Review</h5>
+                <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Instantly generate authentic testimonials. Build trust and credibility with genuine reviews.</p>
+                </div>
               </div>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-3.png">
+                  <h5 class="mt-3">Youtube Video Description</h5>
+                  <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Easily create compelling product descriptions that sell. Increase conversions and boost sales.</p>
+                </div>
+              </div>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-5.png">
+                  <h5 class="mt-3">Email Generator</h5>
+                  <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Generate an email with your subject and description. Streamline your inbox and save time.</p>
+                </div>
+              </div>
+              <div class="slide-custom p-2 ps-3 pt-3">
+                <div>
+                  <img src="/images/custom-4.png">
+                  <h5 class="mt-3">Instagram Captions</h5>
+                  <p class="text-white text-opacity-75 mt-2" style="font-size:14px;">Elevate your Instagram game with captivating captions. Generate unique captions that engage followers and increase your reach.</p>
+                </div>
+              </div>
+         
+              <!-- next slide end -->
             </div>
-       
-            <!-- next slide end -->
           </div>
+          <!-- secont scrolling animaction start -->
         </div>
-        <!-- secont scrolling animaction start -->
-      </div>
-      <!-- end custom templates -->
-      
-   </div>
+        <!-- end custom templates -->
+    </div>
       <!-- Start future section -->
     <div class="container-fluid mb-5">
      <div class="container">
@@ -631,13 +630,13 @@
               Effortlessly generate text, images, code, chat, nad more with our innovative AI platform. Unlock limitless possibilities for creativity and productivity with our cutting-edge technology. </p>
           </div>
         </div>
-        <div class="col future-border-box ">  <div class="future-inner-box">
+        <div class="col future-border-box">  <div class="future-inner-box">
           <img src="/images/future-2.png" class="ps-1">
           <p class="future-head ps-3 pe-2">Advanced Dashboard</p>
           <p class="text-white text-opacity-75 ps-3 pe-2" style="font-size:16px ;">
             Gain access to invaluable insights, analytics, and activity tracking. Unlock powerful data-driven decisions with our advanced dashboard solution.</p>
         </div></div>
-        <div class="col future-border-box ">  <div class="future-inner-box">
+        <div class="col future-border-box">  <div class="future-inner-box">
           <img src="/images/future-3.png" class="ps-1">
           <p class="future-head ps-3 pe-2">Payment Gateways</p>
           <p class="text-white text-opacity-75 ps-3 pe-2" style="font-size:16px ;">
@@ -665,7 +664,7 @@
       </div>
     </div>
     <!-- End future section -->
-    <div class="container-fluid position-absolute">
+    <div class="container-fluid position-relative overflow-x-hidden">
       <div class="row background-gradient-pricing z-n1 position-absolute">
         <div class="inner-gradient-pricing"></div>
       </div>
@@ -685,9 +684,7 @@
             <div class="btn-price-two">
               <button type="button">Yearly</button>
             </div>
-
           </div>
-          
         </div>
         <div class="row mt-5">
           <div class="col col-lg-4 d-flex justify-content-center">
@@ -719,14 +716,17 @@
                   <p class="image-generator-para"><img src="images/image-generator-icon.svg" class="img-fluid me-2" style="width:20px; height:20px;">Unlimited project</p>
                   <p class="image-generator-para"><img src="images/pricing-icon.png" class="img-fluid me-2" style="width:20px; height:20px;">Work with team</p>
                   <p class="image-generator-para"><img src="images/pricing-icon.png" class="img-fluid me-2" style="width:20px; height:20px;">Custom Bot & Temp</p>
+                  <div class="pricing-more mt-4">
+                    <a href="#" class="">More<i class="fa-solid fa-arrow-right ms-2"></i></a>
+                  </div>
               </div>
             </div>
           </div>
           <div class="col col-lg-4 d-flex justify-content-center mt-lg-0 mt-3">
             <div class=" price-2 price-1 p-2">
               <div>
-                <p class="pop-title">Popular</p>
-                <h4 class="text-center mt-0">Professional</h4>
+                <!-- <p class="pop-title mt-0">Popular</p> -->
+                <h4 class="text-center border">Professional</h4>
                 <P class=" text-white text-opacity-75">For newcomers with limited functionality exploring the platform.</P>
               </div>
               <div class="d-flex align-self-start">
@@ -758,7 +758,7 @@
           <div class="col col-lg-4 d-flex justify-content-center mt-lg-0 mt-3">
             <div class="price-1 p-2">
               <div>
-                <h4 class="text-center mt-3">Premium</h4>
+                <h4 class="text-center">Premium</h4>
                 <P class=" text-white text-opacity-75">For newcomers with limited functionality exploring the platform.</P>
               </div>
               <div class="d-flex">
@@ -844,7 +844,7 @@
           <div class="accordion text-white" id="accordionPanelsStayOpenExample">
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
                   How can the AI Code feature help me?
                 </button>
               </h2>
@@ -978,35 +978,23 @@
       </div>
      </div>
      <!-- end customers -->
-     <!-- <div class="container-fluid last-baner ">
-      <div class="container">
-        <div class="row last-img-row">
-          <div class=" col-12 col-lg-6 text-white text-center">
-            <h2 class="mt-5">Become a part of Genoer's future. Let's collaborate and create something amazing.</h2>
-            <p class="col-md-8 col-lg-12 mx-auto mt-4">Select a topic and create something even better today. Start now and make your ideas a reality.</p>
-            <button class="btn-two mt-3 ps-1 pe-2" style="width:210px;"><img src="/images/star.png" class="me-1">Generate AI Image </button> 
-          </div>
-          <div class="col-12 col-md-6 mx-auto last-img">
-            <img class="img-fluid" src="/images/baner.png" style="width: 500px;">
-          </div>
-        </div>
-      </div>
-     </div> -->
+     <!-- start baner -->
      <div class="container-fluid ">
       <div class="container last-baner">
         <div class="row last-img-row pt-5 pb-5">
           <div class=" col-12 col-lg-7 text-white text-center">
             <h1 class=" text-center mt-2 main-title">Become a part of Genoer's future. <span>Let's collaborate and create something amazing.</span></h1>
             <p class="col-md-8 col-lg-8 mx-auto mt-3 text-white text-opacity-75">Select a topic and create something even better today. Start now and make your ideas a reality.</p>
-            <button class="btn-two mt-4 ps-1 pe-2" style="width:210px;"><img src="/images/star.png" class="me-1">Generate AI Image </button> 
+            <button class="btn-two mt-4 ps-1 pe-2" style="width:210px;"><img src="/images/star.png" class="me-1"><a href="#" class="text-white link-underline link-underline-opacity-0">Get Started </a> </button> 
           </div>
           <div class="col-12 col-lg-5 mt-lg-0 mt-4 d-flex justify-content-center align-item-center last-img">
             <img class="img-fluid" src="/images/friendly-robot-starry-space.png">
           </div>
         </div>
       </div>
-
      </div>
+     <!-- end baner -->
+     <!-- start footer -->
      <div class="container-fluid footer mb-5">
       <div class="container">
         <div class="row text-white text-opacity-75 mt-5">
@@ -1042,9 +1030,8 @@
           </div>
         </div>
       </div>
-     
-
      </div>
+     <!-- end footer -->
     </div>
    
 
@@ -1103,6 +1090,17 @@
      <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
      <!-- owl cnd js -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+     <!-- Aos animaction cdn js -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <!-- AOS animaction initialize js -->
+     <script>
+      AOS.init(
+        {
+          once:true
+        }
+      );
+    </script>
+
      <!-- link.js -->
      <script src="script.js"></script>
       
