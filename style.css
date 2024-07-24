@@ -279,11 +279,15 @@ body{
 }
 /* new fut start */
 .future-backgrount{
-    height: 200px;
-    background-color:rgba(86, 86, 86, 0.141);
-    border: 1px solid #6e6e6e;
+    /* height: 200px; */
+    /* background-color:rgba(86, 86, 86, 0.141); */
+    /* border: 1px solid #6e6e6e; */
+    /* border: 1px solid #fafafa12; */
+    border: 1px solid #6e6e6e68;
+
     border-radius: 10px;
     padding:20px ;
+    margin-top:80px;
 }
 .type-of-future{
     display: flex;
@@ -299,6 +303,45 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+.future-box-one:hover{
+     border: none;
+}
+.future-text{
+    background-color:rgba(86, 86, 86, 0.141);
+    border: 1px solid #6e6e6e;
+    border-radius:10px;
+    height: 500px;
+
+}
+.future-text h5{
+    font-size:30px;
+    font-family: "Koh Santepheap", serif;
+    font-weight: 400;
+}
+.future-img-div{
+    background-image: url('/images/Intuitive\ Purple.jpg');
+    width: 500px;
+    height:500px ;
+    border-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+}
+.future-img-div img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position: center; 
+    transition-duration:1s;
+}
+.future-img-div img:hover{
+    /* transform: scale(1.1); */
+    width:108%;
+    height:108%;
 }
 /* new fut end */
 
