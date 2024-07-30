@@ -982,7 +982,6 @@ video{
 .btn-price-one button:hover{
     z-index: 0;
     /* transition-duration: 10s; */
-
 }
 .btn-price-two button{
     padding: 10px 35px;
@@ -1249,7 +1248,6 @@ border-radius: 10px;
     margin-top:15px;
     margin-left:-30px;
     /* border: 2px solid; */
-
 }
 /* footer end */
 

@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
     font-family: "Poppins", sans-serif;
-   font-style: normal;
+    font-style: normal;
    
 }
 body{
@@ -12,17 +12,26 @@ body{
     overflow-x: hidden !important;
     color: white;
 }
+::-webkit-scrollbar{
+    /* background: #5337FF; */
+    width: 0;
+}
 /* Navbar start */
-/* .navbar{
-    background: rgb(83,55,255);
-    background: linear-gradient(60deg, rgba(83,55,255,1) 0%, rgba(211,80,255,1) 66%);
-} */
+.navbar-click{
+    background: rgb(83,55,255); 
+    background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgba(211,80,255,1) 66%);
+    /* height: 500px; */
+}
+.header-scrolled{
+    background: rgb(83,55,255); 
+    background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgba(211,80,255,1) 66%);
+}
 .future-head{
     background: rgb(83,55,255);
     background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgba(211,80,255,1) 66%);
     padding-bottom:80px;
     background-size:140% 140%;
-    animation: color 5s ease-in-out infinite;
+    animation: color 3s ease-in-out infinite;
 }
 @keyframes color{
     0%{
@@ -125,7 +134,272 @@ body{
     font-family: "Koh Santepheap", serif;
     font-weight: 600;
     font-size:40px;
+}
+.sub-head ul li{
+    list-style-type: none;
+    font-size:14px ;
+}
+.sub-head h4{
+    font-family: "Koh Santepheap", serif;
+    font-weight: 600;
+    font-size:30px;
+}
+.sub-head h3{
+    font-family: "Koh Santepheap", serif;
+    font-weight: 600;
+    font-size:30px;
+}
+.btn-two{
+    width:190px; 
+    height:55px;
+    text-align: center;
+    border-radius:5px;
+    border: none;
+    outline: none;
+    color: white;
+    background: rgb(83,55,255);
+    background: linear-gradient(234deg, rgba(83,55,255,1) 0%, rgba(220,41,172,1) 100%);
+    margin-top: 10px;
+}
+.btn-two span{
+    font-size:13px ;
+    font-weight:700;
+    margin-top:px ;
+}
+.btn-two:hover{
+    background: rgb(83,55,255);
+   background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgba(220,41,172,1) 100%);
+   transition-delay:3s;
+}
+/* last-banaer start */
+.last-baner{
+    margin-top: 100px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    /* background-image: url('/images/_\ \(4\).jpeg'); */
+    background-image: url('/images/baner-2\ copy.jpg');
 
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width:100%;
 }
 
+.last-baner h2{
+    font-size: 40px;
+    font-family: "Koh Santepheap", serif;
+}
+.last-img img{
+    width: 300px;
+    position: relative;
+    animation-name:moveingimg;
+    animation-duration:2s;
+    animation-iteration-count:infinite
+}
+@keyframes moveingimg{
+    0%{
+        bottom:0;
+    }
+    50%{
+        bottom:30px;
+    }
+    100%{
+        bottom: 0;
+    }
+
+}
+/* last-banaer end */
+/* footer  sart*/
+.footer{
+    border-radius:10px;
+    border-top: 2px solid rgba(211,80,255,1);
+    margin-top: 100px;
+}
+.footer ul li{
+    list-style-type: none;
+    margin-top:15px;
+    margin-left:-30px;
+    /* border: 2px solid; */
+}
+/* footer end */
+
+/* start the pricing section */
+.pricing-head{
+    background: rgb(83,55,255);
+    background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgba(211,80,255,1) 66%);
+    padding-bottom:100px;
+    /* border-radius:0 0 50% 50% /0 0 100% 100%; */
+    /* transform: scaleX(1.2); */
+}
+/* start pricing section */
+.background-gradient-pricing{
+    top:330px;
+    right:-200px;
+    /* border: 2px solid white; */
+}
+.inner-gradient-pricing{
+    width:600px ;
+    height:700px;
+    background: rgb(83,55,255);
+    background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
+    filter:blur(190px);
+}
+@media only screen and (max-width:991px){
+    .inner-gradient-pricing{
+        width:600px ;
+        height:1500px;
+        background: rgb(83,55,255);
+        background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
+        filter:blur(190px);
+    }
+
+}
+.pricing-container,
+.custom-temp,
+.Frequently-container{
+    margin-top:80px;
+}
+@media only screen and (max-width:576px){
+    .pricing-container,
+    .custom-temp,
+    .Frequently-container{
+    margin-top:50px;
+}
+}
+.btn-price-one button{
+    padding: 10px 30px;
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color:#161a20;
+    /* background: transparent; */
+    color: rgb(255, 255, 255);
+    /* margin: 10px; */
+    margin-right: -20px;
+
+}
+.btn-price-one button::before{
+    content: '';
+    width:103%;
+    height: 108%;
+    background: rgb(83,55,255);
+   background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%);
+   /* transition-delay:3s; */
+    position: absolute;
+    border-radius: 40px;
+    z-index: -1;
+    /* transition-duration: 10s; */
+}
+.btn-price-one button:hover{
+    z-index: 0;
+    /* transition-duration: 10s; */
+
+}
+.btn-price-two button{
+    padding: 10px 35px;
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+   background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgba(220,41,172,1) 100%);
+
+}
+.btn-price-two button:hover{
+   background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 196) 100%);
+
+}
+.price-1{
+    background-color:#161a20;
+    border: 1px solid #6e6e6e;
+    width:345px;
+    height:590px ;
+    border-radius: 10px;
+}
+
+.price-1 h4{
+    font-family: "Koh Santepheap", serif;
+    font-weight: 400;
+    font-size:32px ;
+}
+.price-1 p{
+    font-size: 14px;
+}
+.price-1 ul{
+    list-style-type: none;
+}
+.pricing-a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid #D350FF;
+    border-radius: 30px;
+    padding: 10px 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:#161a20; */
+}
+.pricing-a:hover{
+   background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%);
+   border:none;
+}
+.pricing-a-div{
+    border-bottom: 2px dotted gray;
+    padding-bottom:25px;
+}
+.price-2{
+    border: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.price-2::after{
+content: '';
+width: 101%;
+height: 101%;
+position: absolute;
+background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%);
+z-index: -1;
+border-radius: 10px;
+}
+.pricing-more a{
+    color: white;
+    text-decoration: none;
+    border:1px solid gray;
+    border-radius:30px;
+    padding:7px 15px;
+    font-size: 14px;
+    opacity:0.3;
+    margin-top:0px;
+}
+.pricing-more a:hover{
+    background-color: #6e6e6e;
+    opacity: 0.8;
+}
+.pop-title{
+    margin-left:260px;
+    color:transparent;
+    background-image:linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%) ;
+    -webkit-background-clip: text;
+    font-weight: 600;
+}
+@media only screen and (max-width:375px){
+    .pop-title{
+        margin-left:180px;
+        color:transparent;
+        background-image:linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%) ;
+        -webkit-background-clip: text;
+        font-weight: 600;
+    }
+}
+/* end pricing section */
+/* end the pricing section */
 
