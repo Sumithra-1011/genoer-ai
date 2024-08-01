@@ -395,10 +395,29 @@ border-radius: 10px;
     .pop-title{
         margin-left:180px;
         color:transparent;
-        background-image:linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%) ;
+        background-image:linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%);
         -webkit-background-clip: text;
         font-weight: 600;
     }
+}
+
+.pricing-heading{
+    font-family: "Kadwa", serif;
+    font-size:50px !important;
+    /* background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgb(41, 220, 157) 100%); */
+    background: linear-gradient(97deg, rgba(83,55,255,1) 16%, rgba(233,71,156,1) 67%, rgba(254,198,139,1) 100%);
+     -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.com-pricing a{
+    text-decoration: none;
+    color: white;
+    border:none;
+    padding:10px 20px;
+    border-radius:50px;
+    background: linear-gradient(45deg, rgba(83,55,255,1) 0%, rgba(220,41,172,1) 100%);
+    margin-top:20px ;
 }
 /* end pricing section */
 /* end the pricing section */
