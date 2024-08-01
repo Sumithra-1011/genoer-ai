@@ -82,27 +82,32 @@ function myCheck(button){
   if(button==vision_id){
     futureheading_id.innerHTML='Transform Images into Insightful Conversations'
     futurepara_id.innerHTML='Transform images into insightful conversations. Upload any image and receive detailed, contextual information and analyses to enhance your understanding and decision-making.'
-    changeimg.src="images/Toolkit_1.png"
+    changeimg.src="images/ai_vision.png"
   }
   else if(button==filechat_id){
     futureheading_id.innerHTML='Extract Key Insights and Summarize Documents with Ease'
     futurepara_id.innerHTML='Simplify information extraction from files. Upload documents and let AI swiftly find specific details, extract key insights, or summarize the entire content for easy comprehension.'
+    changeimg.src="images/ai_file_chat.png"
   }
   else if(button==youtube_id){
     futureheading_id.innerHTML='Extract Key Points and Generate Concise Summaries from Video Links'
     futurepara_id.innerHTML='Provide a YouTube video link, and the AI will analyze the content, extract key points, and generate a concise text summary for your use.'
+    changeimg.src="images/ai_youtube.png"
   }
   else if(button==article_id){
     futureheading_id.innerHTML='Instant SEO-Optimized Blog Content Creation'
     futurepara_id.innerHTML='Effortlessly create SEO-optimized blog content. Input your topic and watch as AI generates high-quality, tailored articles in seconds, boosting your online presence and engagement.'
+    changeimg.src="images/ai_article wizard.png"
   }
   else if(button==rss_id){
     futureheading_id.innerHTML='Streamline Content Updates with Real-Time, Tailored Feeds'
     futurepara_id.innerHTML='Automate your content updates with AI-powered RSS feeds. Stay informed with real-time information tailored to your interests and requirements.'
+    changeimg.src="images/ai_chat_image.png"
   }
   else if(button==brand_id){
     futureheading_id.innerHTML='AI Brand Voice: Ensure Consistent and Unique Branding Across All Content'
     futurepara_id.innerHTML="Maintain a consistent and unique brand voice across all your content. This AI tool helps you create content that aligns with your brand's style and tone, reinforcing your brand identity effectively."
+    changeimg.src="images/ai_chat_image.png"
   }
 
 }

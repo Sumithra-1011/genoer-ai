@@ -162,8 +162,8 @@ body{
     margin-top: 100px;
     object-fit: cover;
     background-repeat: no-repeat;
-    /* background-image: url('/images/_\ \(4\).jpeg'); */
-    background-image: url('/images/baner-2\ copy.jpg');
+    background-image: url('/images/_\ \(4\).jpeg');
+    /* background-image: url('/images/baner-2\ copy.jpg'); */
 
     background-size: cover;
     background-position: center;
