@@ -12,10 +12,7 @@ body{
     overflow-x: hidden !important;
     color: white;
 }
-::-webkit-scrollbar{
-    /* background: #5337FF; */
-    width: 0;
-}
+
 /* Navbar start */
 .navbar-click{
     background: rgb(83,55,255); 

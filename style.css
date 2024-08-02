@@ -34,7 +34,7 @@ body{
 }
 ::-webkit-scrollbar{
     /* background: #5337FF; */
-    width: 0;
+    width:5;
 }
 /* Navbar start */
 .navbar{
