@@ -1251,5 +1251,29 @@ border-radius: 10px;
     /* border: 2px solid; */
 }
 /* footer end */
+/* start scroll-btn  */
+.scroll-btn{
+    color: white;
+    text-decoration: none;
+    border:1px solid gray;
+    border-radius:30px;
+    padding:8px 12px;
+    font-size: 14px;
+    opacity:0;
+    pointer-events: none;
+    position: fixed;
+    bottom:100px ;
+    right:50px;
+}
+.scroll-btn:hover{
+    background-color: #6e6e6e;
+    opacity: 0.8;
+}
+.active{
+    pointer-events: auto;
+    opacity: 1;
+    /* bottom:50px ; */
+}
+/* end scroll-btn */
 
 

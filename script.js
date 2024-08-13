@@ -112,4 +112,14 @@ function myCheck(button){
 
 }
 
+let scrollBtn = document.querySelector('.scroll-btn')
+console.log(scrollBtn)
+window.addEventListener('scroll',()=>{
+  if(window.pageYOffset >200){
+    scrollBtn.classList.add("active")
+  }
+  else{
+    scrollBtn.classList.remove('active')
+  }
+})
 
